@@ -1,0 +1,55 @@
+.Suggestions:hover,
+.Suggestions:focus {
+    background-color: rgb(137, 185, 232)
+}
+
+#sList0 {
+    position: relative;
+    margin-top: -2px;
+}
+
+#sList1 {
+    margin-top: 10px;
+}
+
+.Suggestions {
+    background-color: white;
+    border: 0px;
+    text-align: initial;
+
+}
+
+
+.NoSuggestions {
+    display: none;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -ms-flex-align: center;
+
+}
+
+.CardsProp {
+    margin-Top: 4vh;
+    margin: 10px;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+
+
+    .Cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 5vw;
+    }
+
+    .CardsProp {
+        margin-Top: 4vh;
+        margin: 10px;
+    }
+}
